@@ -26,5 +26,5 @@ elif toppings == 4:
     cost += 3.35
 
 
-print(f"\nYour subtotal comes to: ${round(cost, 2)}, tax: {round(cost*0.13,2)}, and total: $")
+print(f"\nYour subtotal comes to: ${round(cost, 2)}, tax: ${round(cost*0.13,2)}, and total: ${round(cost * 1.13 ,2)}")
 
